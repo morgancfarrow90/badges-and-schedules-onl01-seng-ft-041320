@@ -10,17 +10,20 @@ def batch_badge_creator(array)
   return speakarray
 end 
   
-  def batch_badge_creator(array)
-  nuarray = []
+def assign_rooms(array)
+  speakarray = []
+  counter = 1 
   array.each do |name|
-    nuarray.push("Hello, my name is #{name}.")
+    speakarray.push ("Hello, #{name}! You'll be assigned to room #{counter}!")
+
+def assign_rooms(array)
+  nuarray = []
+  counter = 1
+  array.each do |name|
+    nuarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    counter += 1
   end
   return nuarray
 end
-  
-def assign_rooms(array)
-  room assignments []
-  array.each do |name|
-    puts "Hello, #{name}! You'll be assigned to room #{index of name"
   
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
