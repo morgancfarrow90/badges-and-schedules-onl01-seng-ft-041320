@@ -11,3 +11,5 @@ def batch_badge_creator(array)
   end
   return speakarray
 end 
+
+batch_badge_creator(speakers)
