@@ -36,4 +36,4 @@ assign_rooms(array).each do |id|
   end
 end 
 
-printer
+printer(speakers)
