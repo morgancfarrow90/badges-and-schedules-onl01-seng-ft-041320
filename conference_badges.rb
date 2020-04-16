@@ -21,3 +21,13 @@ def assign_rooms(array)
 end
 
 def printer
+  
+def printer(array)
+  batch_badge_creator(array).each do |id|
+    puts id
+  end 
+  
+def assign_rooms(array).each do |id|
+    puts id 
+  end
+end
