@@ -23,6 +23,8 @@ def assign_rooms(array)
   end
   return speakarray
 end
+
+assign_rooms(speakers)
   
 def printer(array)
   batch_badge_creator(array).each do |id|
