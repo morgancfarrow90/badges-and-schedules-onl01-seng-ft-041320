@@ -24,3 +24,4 @@ def assign_rooms(array)
   return speakarray
 end
 
+assign_rooms(speakers)
