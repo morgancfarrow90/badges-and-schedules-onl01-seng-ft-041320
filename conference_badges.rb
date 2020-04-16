@@ -5,7 +5,7 @@ end
 def batch_badge_creator(array)
   speakarray =["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   array.each do |name|
-    nuarray.push("Hello, my name is #{name}.")
+    speakarray.push("Hello, my name is #{name}.")
   end
   return speakarray
 end 
