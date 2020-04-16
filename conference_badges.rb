@@ -17,16 +17,5 @@ def assign_rooms(array)
     speakarray.push ("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter +=1 
   end
+  return speakarray
 end
-
-def assign_rooms(array)
-  nuarray = []
-  counter = 1
-  array.each do |name|
-    nuarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
-    counter += 1
-  end
-  return nuarray
-end
-  
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
