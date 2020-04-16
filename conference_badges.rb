@@ -25,3 +25,5 @@ def assign_rooms(array)
 end
 
 assign_rooms(speakers)
+
+
