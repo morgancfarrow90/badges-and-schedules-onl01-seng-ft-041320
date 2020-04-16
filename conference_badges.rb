@@ -15,6 +15,9 @@ def assign_rooms(array)
   counter = 1 
   array.each do |name|
     speakarray.push ("Hello, #{name}! You'll be assigned to room #{counter}!")
+    counter +=1 
+  end
+end
 
 def assign_rooms(array)
   nuarray = []
