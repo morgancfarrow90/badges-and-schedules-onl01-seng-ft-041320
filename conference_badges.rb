@@ -19,3 +19,5 @@ def assign_rooms(array)
   end
   return speakarray
 end
+
+def printer
