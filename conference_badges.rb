@@ -19,8 +19,6 @@ def assign_rooms(array)
   end
   return speakarray
 end
-
-def printer
   
 def printer(array)
   batch_badge_creator(array).each do |id|
